@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu te amo Evellyn Maria♥</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        #botao {
+            position: absolute;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a>
+                    Quando eu for praí, libera o cuzinho?
+                </a>
+            </li>
+        
+    </nav>
+<nav>
+    <a href="obrigado.html">
+        <button id="Sim">Sim</button>
+    </a>
+</nav>
+    <button id="botao" onclick="moverBotao()" >Não</button>
+    
+    </ul>
+    <script>
+        function moverBotao() {
+            let botao = document.getElementById("botao");
+            botao.style.display = "none"; // Esconde o botão
+            
+            setTimeout(() => {
+                let largura = window.innerWidth - 100;
+                let altura = window.innerHeight - 50;
+
+                let x = Math.random() * largura;
+                let y = Math.random() * altura;
+
+                botao.style.left = `${x}px`;
+                botao.style.top = `${y}px`;
+                botao.style.display = "block"; // Mostra o botão novamente
+            }, 100); // O botão reaparece após 500ms
+        }
+    </script>
+            <style>
+                button {
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    background-color: rgb(77, 0, 128);
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+            
+                button:hover {
+                    background-color: rgb(100, 0, 100);
+                }
+                
+            </style>
+
+
+</body>
+</html>

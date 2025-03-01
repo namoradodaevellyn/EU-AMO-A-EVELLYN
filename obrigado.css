@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(64, 5, 119);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+p {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: absolute;
+    top: 400px;
+    left: 125px;
+}
