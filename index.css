@@ -1,25 +1,18 @@
-body{
-    background-color: aqua;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 40px;
+body, html {
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    height: 150px;
-    line-height: 10px;
-    
-}
-#botao {
-    position: absolute;
-    top: 550px; /* Distância do topo */
-    left: 800px; /* Distância da esquerda */
-}
 
-#Sim {
-    position: absolute;
-    top: 550px; /* Distância do topo */
-    left: 1000px; /* Distância da esquerda */
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
